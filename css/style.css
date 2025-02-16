@@ -75,3 +75,28 @@ a:active {
 .fancybox-margin {
     margin-right: 0;
 }
+
+
+.fancybox-custom .fancybox-skin {
+  box-shadow: 0 0 50px #222;
+}
+
+body {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#backgrounda {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(http://shanevaldes.com/images/fireworks.png) no-repeat;
+    background-size: cover;
+  }
