@@ -1,0 +1,338 @@
+/* Reset
+--------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	-webkit-font-smoothing: antialiased;
+	/*background: transparent;*/
+}
+body {
+	line-height:1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {
+	vertical-align:middle;
+}
+/* End Reset
+--------------------------------------------------------*/
+#mobile {
+	display: none;
+	visibility:hidden;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family:'HelveticaRegular';
+    src: url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-regular-webfont.eot');
+    src: url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-regular-webfont.eot#iefix') format('embedded-opentype'),
+	url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-regular-webfont.svg#helvetica-regular-webfont') format('svg'),
+         url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-regular-webfont.woff') format('woff'),
+         url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-regular-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family:'HelveticaBold';
+    src: url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-bold-webfont.eot');
+    src: url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-bold-webfont.eot#iefix') format('embedded-opentype'),
+		url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-bold-webfont.svg#helvetica-bold-webfont') format('svg'),
+         url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-bold-webfont.woff') format('woff'),
+         url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-bold-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media all and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'HelveticaRegular';
+    src: url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-regular-webfont.svg#helvetica-regular-webfont') format('svg');
+  }
+  @font-face {
+    font-family: 'HelveticaBold';
+    src: url('/web/20160323011516im_/http://shanevaldes.com/assets/fonts/helvetica-bold-webfont.svg#helvetica-bold-webfont') format('svg');
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: #000;
+	font-family: 'HelveticaRegular', arial, serif;
+	text-shadow: transparent 0 0 1px
+}
+a {
+	text-decoration: none;
+}
+#screen {
+	position: absolute;
+	left: 0;
+	width: 5000px;
+	margin-right: 48px;
+	float: left;
+	z-index: -0;
+}
+header {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	z-index: 3;
+}
+h1 a {
+	/*float: left;*/
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -1px;
+}
+h1 a:link, h1 a:active, h1 a:visited {
+	color: #000;
+	outline: none;
+}
+h1 a:hover {
+}
+nav {
+	position: absolute;
+	width: 200px;
+	top: 60px;
+	left: 40px;
+	z-index: 2;
+	display: block;
+	font-size: 12px;
+}
+nav ul {
+	clear: none;
+	display: block;
+	float: left;
+	margin: 20px;
+}
+nav ul li {
+}
+nav ul li a {
+	/* float: left;*/
+	display: inline-block;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 21px;
+	letter-spacing: -1px;
+	outline: none;
+	cursor: pointer;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+section {
+	font-size: 14px;
+	line-height: 21px;
+}
+section p {
+	width: 100%;
+	clear: both;
+	float: left;
+	padding: 0 0 20px 0;
+}
+section h2 {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 20px 0 20px 0;
+	font-size: 48px;
+	line-height: 44px;
+	letter-spacing: -3px;
+	font-weight: bold;
+	font-family: 'HelveticaBold', arial, serif;
+}
+.homeTitle {
+	padding: 0 0 40px 0;
+	float: left;
+	font-size: 154px;
+	line-height: 120px;
+	letter-spacing: -10px;
+	font-weight: bold;
+	font-family: 'HelveticaBold', arial, serif;
+}
+section figcaption {
+	font-size: 10px;
+	color: #ccc;
+}
+.col1 {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 600px;
+	padding: 30px;
+}
+.col2 {
+	display: block;
+	float: left;
+	width: 600px;
+	height: 600px;
+	padding: 30px;
+}
+.minus {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+.plus {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+clear {
+	clear: both;
+	overflow: hidden;
+}
+footer {
+	float: left;
+	width: 200px;
+	margin: 800px 0 0 75px;
+	z-index: 3;
+	display: block;
+	font-size: 11px;
+}
+video {
+	background: #000;
+	display: block;
+	width: 600px;
+	height: 371px;
+}
+.thumb {
+	float: left;
+	margin-right: 10px;
+}
+figcaption span {
+	color: #c00;
+}
+/*#qLpercentage {
+	left: 500px;
+	top: 303px;
+	color: #999;
+	-webkit-transform: rotate(-30deg); 
+	-moz-transform: rotate(-30deg);	
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -1px;
+	font-family: 'HelveticaBold', arial, serif;
+}*/
+#qLpercentage {
+	left: 70px;
+	top: 50px;
+	color: #999;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -1px;
+	font-family: 'HelveticaBold', arial, serif;
+}
+#qLpercentage strong {
+	color: #fff;
+}
+
+/*
+     FILE ARCHIVED ON 01:15:16 Mar 23, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:23:43 Feb 16, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.627
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 223.023
+  LoadShardBlock: 303.065 (3)
+  PetaboxLoader3.datanode: 678.978 (4)
+  PetaboxLoader3.resolve: 206.343 (2)
+  load_resource: 621.295
+*/
