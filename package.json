@@ -1,0 +1,20 @@
+{
+  "name": "shanevaldez",
+  "version": "1.0.0",
+  "description": "shanevaldez.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanesupers/shanevaldez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanesupers/shanevaldez/issues"
+  },
+  "homepage": "https://github.com/shanesupers/shanevaldez#readme"
+}
