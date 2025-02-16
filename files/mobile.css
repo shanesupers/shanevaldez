@@ -72,29 +72,29 @@ input, select {
 --------------------------------------------------------*/
 @font-face {
  font-family: 'HelveticaRegular';
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica-webfont.eot');
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica-webfont.eot#iefix') format('embedded-opentype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica-webfont.woff') format('woff'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica-webfont.ttf') format('truetype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica-webfont.svg#HelveticaRegular') format('svg');
+ src: url('http://shanevaldes.com/assets/css/helvetica-webfont.eot');
+ src: url('http://shanevaldes.com/assets/css/helvetica-webfont.eot#iefix') format('embedded-opentype'),  url('http://shanevaldes.com/assets/css/helvetica-webfont.woff') format('woff'),  url('http://shanevaldes.com/assets/css/helvetica-webfont.ttf') format('truetype'),  url('http://shanevaldes.com/assets/css/helvetica-webfont.svg#HelveticaRegular') format('svg');
  font-weight: normal;
  font-style: normal;
 }
  @font-face {
  font-family: 'HelveticaBold';
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold-webfont.eot');
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold-webfont.eot#iefix') format('embedded-opentype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold-webfont.woff') format('woff'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold-webfont.ttf') format('truetype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold-webfont.svg#HelveticaBold') format('svg');
+ src: url('http://shanevaldes.com/assets/css/helvetica_bold-webfont.eot');
+ src: url('http://shanevaldes.com/assets/css/helvetica_bold-webfont.eot#iefix') format('embedded-opentype'),  url('http://shanevaldes.com/assets/css/helvetica_bold-webfont.woff') format('woff'),  url('http://shanevaldes.com/assets/css/helvetica_bold-webfont.ttf') format('truetype'),  url('http://shanevaldes.com/assets/css/helvetica_bold-webfont.svg#HelveticaBold') format('svg');
  font-weight: normal;
  font-style: normal;
 }
  @font-face {
  font-family: 'HelveticaBoldOblique';
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.eot');
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.eot#iefix') format('embedded-opentype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.woff') format('woff'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.ttf') format('truetype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.svg#HelveticaBoldOblique') format('svg');
+ src: url('http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.eot');
+ src: url('http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.eot#iefix') format('embedded-opentype'),  url('http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.woff') format('woff'),  url('http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.ttf') format('truetype'),  url('http://shanevaldes.com/assets/css/helvetica_bold_oblique-webfont.svg#HelveticaBoldOblique') format('svg');
  font-weight: normal;
  font-style: normal;
 }
  @font-face {
  font-family: 'HelveticaOblique';
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_oblique-webfont.eot');
- src: url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_oblique-webfont.eot#iefix') format('embedded-opentype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_oblique-webfont.woff') format('woff'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_oblique-webfont.ttf') format('truetype'),  url('/web/20160211175320im_/http://shanevaldes.com/assets/css/helvetica_oblique-webfont.svg#HelveticaOblique') format('svg');
+ src: url('http://shanevaldes.com/assets/css/helvetica_oblique-webfont.eot');
+ src: url('http://shanevaldes.com/assets/css/helvetica_oblique-webfont.eot#iefix') format('embedded-opentype'),  url('http://shanevaldes.com/assets/css/helvetica_oblique-webfont.woff') format('woff'),  url('http://shanevaldes.com/assets/css/helvetica_oblique-webfont.ttf') format('truetype'),  url('http://shanevaldes.com/assets/css/helvetica_oblique-webfont.svg#HelveticaOblique') format('svg');
  font-weight: normal;
  font-style: normal;
 }
@@ -142,23 +142,3 @@ footer {
 	font-size: 11px;
 	padding: 40px 0 20px 0;
 }
-/*
-     FILE ARCHIVED ON 17:53:20 Feb 11, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 05:23:43 Feb 16, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.487
-  exclusion.robots: 0.017
-  exclusion.robots.policy: 0.008
-  esindex: 0.01
-  cdx.remote: 34.418
-  LoadShardBlock: 140.628 (3)
-  PetaboxLoader3.datanode: 85.006 (4)
-  PetaboxLoader3.resolve: 310.649 (2)
-  load_resource: 334.3
-*/
