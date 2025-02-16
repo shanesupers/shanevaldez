@@ -76,7 +76,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('/web/20160323012216im_/http://shanevaldes.com/fancy/source/fancybox_sprite.png');
+	background-image: url('http://shanevaldes.com/fancy/source/fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -94,7 +94,7 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('/web/20160323012216im_/http://shanevaldes.com/fancy/source/fancybox_loading.gif') center center no-repeat;
+	background: url('http://shanevaldes.com/fancy/source/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -114,7 +114,7 @@
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url('/web/20160323012216im_/http://shanevaldes.com/fancy/source/blank.gif'); /* helps IE */
+	background: transparent url('http://shanevaldes.com/fancy/source/blank.gif'); /* helps IE */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -184,7 +184,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('/web/20160323012216im_/http://shanevaldes.com/fancy/source/fancybox_overlay.png');
+	background: url('http://shanevaldes.com/fancy/source/fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
@@ -263,32 +263,12 @@
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url('/web/20160323012216im_/http://shanevaldes.com/fancy/source/fancybox_sprite@2x.png');
+		background-image: url('http://shanevaldes.com/fancy/source/fancybox_sprite@2x.png');
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 
 	#fancybox-loading div {
-		background-image: url('/web/20160323012216im_/http://shanevaldes.com/fancy/source/fancybox_loading@2x.gif');
+		background-image: url('http://shanevaldes.com/fancy/source/fancybox_loading@2x.gif');
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
-/*
-     FILE ARCHIVED ON 01:22:16 Mar 23, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 05:23:43 Feb 16, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.518
-  exclusion.robots: 0.018
-  exclusion.robots.policy: 0.008
-  esindex: 0.011
-  cdx.remote: 7.247
-  LoadShardBlock: 207.427 (3)
-  PetaboxLoader3.datanode: 144.925 (4)
-  load_resource: 183.553
-  PetaboxLoader3.resolve: 73.599
-*/

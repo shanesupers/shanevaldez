@@ -27,23 +27,3 @@ if (!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigato
 }
 
 }
-/*
-     FILE ARCHIVED ON 01:26:23 Mar 23, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 05:23:42 Feb 16, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.649
-  exclusion.robots: 0.024
-  exclusion.robots.policy: 0.011
-  esindex: 0.012
-  cdx.remote: 13.814
-  LoadShardBlock: 63.802 (3)
-  PetaboxLoader3.datanode: 112.591 (4)
-  load_resource: 181.721
-  PetaboxLoader3.resolve: 74.286
-*/

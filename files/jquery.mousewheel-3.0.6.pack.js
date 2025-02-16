@@ -25,23 +25,3 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 d.event.mouseHooks;d.event.special.mousewheel={setup:function(){if(this.addEventListener)for(var a=c.length;a;)this.addEventListener(c[--a],e,false);else this.onmousewheel=e},teardown:function(){if(this.removeEventListener)for(var a=c.length;a;)this.removeEventListener(c[--a],e,false);else this.onmousewheel=null}};d.fn.extend({mousewheel:function(a){return a?this.bind("mousewheel",a):this.trigger("mousewheel")},unmousewheel:function(a){return this.unbind("mousewheel",a)}})})(jQuery);
 
 }
-/*
-     FILE ARCHIVED ON 17:13:04 Feb 11, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 05:23:43 Feb 16, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.824
-  exclusion.robots: 0.027
-  exclusion.robots.policy: 0.012
-  esindex: 0.014
-  cdx.remote: 6.491
-  LoadShardBlock: 145.825 (3)
-  PetaboxLoader3.datanode: 271.195 (4)
-  load_resource: 219.829
-  PetaboxLoader3.resolve: 72.592
-*/
